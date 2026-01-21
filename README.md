@@ -45,6 +45,9 @@ This platform is an all-in-one Real Estate Property Management System built on t
 ## Architecture
 
 System Architecture Diagram
+The platform architecture consists of multiple layers to deliver a seamless experience:
+
+```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                          SALESFORCE PLATFORM                                 │
 ├─────────────────────────────────────────────────────────────────────────────┤
@@ -104,7 +107,6 @@ System Architecture Diagram
 │  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                               │
 └─────────────────────────────────────────────────────────────────────────────┘
-
                                     │
                     ┌───────────────┴───────────────┐
                     │                               │
@@ -117,6 +119,9 @@ System Architecture Diagram
 
 ## Application Flow
 
+## Application Flow
+
+```text
 ┌─────────────┐
 │   Buyer     │
 │  (Guest)    │
@@ -165,6 +170,7 @@ System Architecture Diagram
 │  • Confirmation │
 │  • Invoice      │
 └─────────────────┘
+
 ---
 
 The platform integrates with external APIs like Stripe for payments, Google and LinkedIn for OAuth authentication, and Dropbox for document storage.
