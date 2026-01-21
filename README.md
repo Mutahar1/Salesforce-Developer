@@ -14,7 +14,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)  
 - [Architecture](#architecture)  
@@ -44,7 +44,18 @@ This platform is an all-in-one Real Estate Property Management System built on t
 
 ## Architecture
 
-System Architecture Diagram
+Our system is designed for scalability, flexibility, and enterprise readiness.
+# Real Estate Property Management Platform
+
+Built on Salesforce Platform with Experience Cloud  
+Salesforce Lightning Web Components | Apex
+
+A comprehensive, enterprise-grade Real Estate Property Management System built on Salesforce Platform, featuring a modern Experience Cloud buyer portal, complete property lifecycle management, and integrated e-commerce capabilities.
+
+---
+
+## Architecture
+
 The platform architecture consists of multiple layers to deliver a seamless experience:
 
 ```text
@@ -107,6 +118,7 @@ The platform architecture consists of multiple layers to deliver a seamless expe
 │  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                               │
 └─────────────────────────────────────────────────────────────────────────────┘
+
                                     │
                     ┌───────────────┴───────────────┐
                     │                               │
@@ -116,10 +128,13 @@ The platform architecture consists of multiple layers to deliver a seamless expe
             │  • Google OAuth │            │  • DropBox      │
             │  • LinkedIn     │            │  • Email        │
             └─────────────────┘            └─────────────────┘
+```
 
-## Application Flow
+The platform integrates with external APIs like Stripe for payments, Google and LinkedIn for OAuth authentication, and Dropbox for document storage.
 
-## Application Flow
+---
+
+## Application Flow## Application Flow
 
 ```text
 ┌─────────────┐
@@ -170,12 +185,8 @@ The platform architecture consists of multiple layers to deliver a seamless expe
 │  • Confirmation │
 │  • Invoice      │
 └─────────────────┘
+```
 
----
-
-The platform integrates with external APIs like Stripe for payments, Google and LinkedIn for OAuth authentication, and Dropbox for document storage.
-
----
 
 1. **Buyer (Guest):**  
    Browse properties using filters, add favorites or to cart without logging in.
@@ -194,7 +205,7 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 
 ---
 
-## Key Features
+## ⭐ Key Features
 
 ### 1. Property Management  
 - Advanced filtering by price, location, amenities, and more  
@@ -237,7 +248,7 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 
 ---
 
-## Technology Stack
+## 🛠 Technology Stack
 
 **Frontend:**  
 - Lightning Web Components (LWC) 3.9.1  
@@ -260,7 +271,7 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 
 ---
 
-## Custom Objects
+## 📦 Custom Objects
 
 | Object Name                 | API Name                      | Description                       |
 |----------------------------|-------------------------------|---------------------------------|
@@ -285,7 +296,7 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 
 ---
 
-## LWC Components
+## ⚙️ LWC Components
 
 | Component Name         | Purpose                          | Features                          |
 |-----------------------|---------------------------------|----------------------------------|
@@ -302,7 +313,7 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 
 ---
 
-## Apex Controllers
+## ⚙️ Apex Controllers
 
 | Controller                 | Purpose                          | Methods    |
 |----------------------------|---------------------------------|------------|
@@ -316,9 +327,10 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
-### Property Listing Page  
+### Property Listing Page 
+```text
 ┌────────────────────────────────────────────────────────┐
 │  [Search Bar]  [Filters]                    [Cart: 3] │
 ├────────────────────────────────────────────────────────┤
@@ -333,10 +345,11 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 │  └──────────┘  └──────────┘  └──────────┘            │
 │                                                         │
 └────────────────────────────────────────────────────────┘
+```
+
 
 ### Property Details Page  
-- Image carousel with swipe controls  
-- Mortgage calculator and contact actions  
+```text
 ┌────────────────────────────────────────────────────────┐
 │  [< Back]                            [Cart] [Wishlist] │
 ├────────────────────────────────────────────────────────┤
@@ -355,10 +368,11 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 │  │ Monthly Payment: $4,200                │           │
 │  └────────────────────────────────────────┘           │
 └────────────────────────────────────────────────────────┘
+```
 
-### My Offers Dashboard
-- Track all submitted offers with statuses  
-- View messages, counter-offers, and deadlines  
+
+### My Offers Dashboard  
+```text
 ┌────────────────────────────────────────────────────────┐
 │  My Offers                                              │
 ├────────────────────────────────────────────────────────┤
@@ -384,7 +398,7 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 │  │  [View Property]                               │   │
 │  └────────────────────────────────────────────────┘   │
 └────────────────────────────────────────────────────────┘
-
+```
 
 ---
 
@@ -420,6 +434,10 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 - Publish your Experience Cloud site  
 - Test guest browsing, cart, and login flows  
 - Verify OAuth login and integrations  
+
+---
+
+Feel free to reach out if you need help with setup or want to contribute!
 
 ---
 
