@@ -205,7 +205,7 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 
 ---
 
-## ⭐ Key Features
+## Key Features
 
 ### 1. Property Management  
 - Advanced filtering by price, location, amenities, and more  
@@ -248,7 +248,7 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 
 ---
 
-## 🛠 Technology Stack
+## Technology Stack
 
 **Frontend:**  
 - Lightning Web Components (LWC) 3.9.1  
@@ -271,7 +271,7 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 
 ---
 
-## 📦 Custom Objects
+## Custom Objects
 
 | Object Name                 | API Name                      | Description                       |
 |----------------------------|-------------------------------|---------------------------------|
@@ -296,7 +296,7 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 
 ---
 
-## ⚙️ LWC Components
+## LWC Components
 
 | Component Name         | Purpose                          | Features                          |
 |-----------------------|---------------------------------|----------------------------------|
@@ -313,7 +313,7 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 
 ---
 
-## ⚙️ Apex Controllers
+## Apex Controllers
 
 | Controller                 | Purpose                          | Methods    |
 |----------------------------|---------------------------------|------------|
@@ -327,7 +327,7 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Property Listing Page 
 ```text
@@ -402,7 +402,7 @@ The platform integrates with external APIs like Stripe for payments, Google and 
 
 ---
 
-## ⚙️ Setup & Configuration
+## Setup & Configuration
 
 ### Step 1: Create Experience Cloud Site  
 - Navigate to Setup → Digital Experiences → All Sites → New  
